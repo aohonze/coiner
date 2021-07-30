@@ -1,0 +1,39 @@
+.index-layout {
+	&-side {
+		overflow: auto;
+		height: 100vh;
+		position: fixed;
+		left: 0;
+		&__logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 64px;
+			color: white;
+			font-size: 32px;
+			font-style: italic;
+			font-weight: 800;
+		}
+	}
+	&-right {
+		transition: all ease;
+	}
+	&-header {
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+
+		&__right {
+			position: absolute;
+			right: 50px;
+			.account-menu {
+				width: 200px;
+			}
+		}
+	}
+	&-container {
+		margin: 24px 16px;
+		min-height: calc(100vh - 112px);
+		overflow: initial;
+	}
+}
