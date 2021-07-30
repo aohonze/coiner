@@ -1,6 +1,6 @@
 import { Layout, Spin, Skeleton, Result, Button } from 'antd';
 import React from 'react';
-import { Router, Route } from 'react-router'
+import { Router, Route } from 'react-router-dom'
 import SideBar from '../components/common/sidebar';
 import HeaderNav from '../components/common/headernav';
 import Account from './account';
